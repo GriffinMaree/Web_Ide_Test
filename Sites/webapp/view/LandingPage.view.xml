@@ -5,7 +5,7 @@
 				<items>
 					<VBox width="25%" direction="Column">
 						<items>
-							<iot:IoTThingList headerText="Tank List" initialSortColumn="ThingId" initialSortOrder="Ascending" rowSelect="zoomToMap" controlType="List" things="{path:'/Things',parameters:{expand:' DYN_ENT_dapt_ox181026100231_vivotanks__Tank_Dip_Reading, HierarchyElements, DYN_ENT_dapt_ox181026100231_vivotanks__Image, DYN_ENT_com_sap_appiot_eventtypes__StandardEventType '}}">
+							<iot:IoTThingList headerText="Site List" initialSortColumn="ThingId" initialSortOrder="Descending" rowSelect="zoomToMap" controlType="List" things="{path:'/Things',parameters:{expand:' DYN_ENT_dapt_ox181026100231_vivotanks__Tank_Dip_Reading, HierarchyElements, DYN_ENT_dapt_ox181026100231_vivotanks__Image, DYN_ENT_com_sap_appiot_eventtypes__StandardEventType '}}">
 								<iot:columns>
 									<iotele:IoTThingListColumnHeader text="{i18n>thingListOnMapInformation1}"/>
 									<iotele:IoTThingListColumnHeader text="{i18n>thingListOnMapInformation2}"/>
